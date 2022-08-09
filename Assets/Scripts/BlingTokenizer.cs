@@ -45,7 +45,7 @@ public class BlingTokenizer
         {
             try
             {
-                _tokenizerBINHandle = BlingFireUtils.LoadModel(_tokenizerI2WPath);
+                _tokenizerI2WHandle = BlingFireUtils.LoadModel(_tokenizerI2WPath);
             }
             catch (System.Exception e)
             {
